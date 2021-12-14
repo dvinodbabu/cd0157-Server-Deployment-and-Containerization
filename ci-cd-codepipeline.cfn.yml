@@ -17,7 +17,7 @@ Parameters:
   GitSourceRepo:
     Type: String
     Description: cd0157-Server-Deployment-and-Containerization
-    Default: FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS
+    Default: cd0157-Server-Deployment-and-Containerization
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository name
