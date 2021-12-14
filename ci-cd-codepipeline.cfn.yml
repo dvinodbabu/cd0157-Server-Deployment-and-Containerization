@@ -16,7 +16,7 @@ Parameters:
 
   GitSourceRepo:
     Type: String
-    Description: GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
+    Description: cd0157-Server-Deployment-and-Containerization
     Default: FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS
     MinLength: 1
     MaxLength: 100
@@ -33,14 +33,14 @@ Parameters:
   GitHubToken:
     Type: String
     NoEcho: true
-    Description: GitHub API token - see https://github.com/blog/1509-personal-api-tokens
+    Description: GithubToken
     MinLength: 3
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub personal access token
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: dvinodbabu
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
